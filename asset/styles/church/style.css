@@ -1,0 +1,278 @@
+body {
+	margin:0;
+	padding:0;
+	background:#ffffff;
+}
+
+p,td { font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin-top: 0px;
+}
+
+a{
+	color: #98005d;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #98005d;
+	text-decoration: underline;
+}
+
+a.hidden {
+	text-decoration: none;
+	color: #000000;
+	cursor:default;
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+
+ul {
+	margin-left:20px;
+	margin-top:0px;
+	padding:1px;
+	list-style-type: square;
+	line-height: 16px;
+	}
+
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px;
+	padding-left: 11px;
+	text-transform: uppercase;
+	padding-top: 8px;
+	padding-bottom: 7px;
+}
+
+.bgy {
+	background-repeat: repeat-y;
+}
+
+.bottom_addr {
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-top: 1px;
+	padding-bottom: 6px;
+	text-align: center;
+}
+
+.bottom_addr a {
+	text-decoration: none;
+}
+
+.bottom_addr a:hover {
+	text-decoration: underline;
+}
+
+
+.bgx {
+	background-repeat: repeat-x;
+}
+
+
+.norepeat {
+	background-repeat: no-repeat;
+}
+
+.c_name {
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-repeat: repeat;
+	background-image: url(../../images/church/cn_bg.jpg);
+}
+.bord {
+	background-image: url(../../images/church/base-bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+
+.bottom-menu {
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 1px;
+}
+
+.bottom-menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.bottom-menu a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#menu {
+	background-color: rgb(255,91,173);
+	margin-left:2px;
+	/*padding: 1px 0 16px 2px;*/	
+	border:0px solid white;
+	/*background: url(../../images/church/mbg.gif) repeat-x;*/
+        z-index: 100;
+}
+
+.menu {
+	color: #7c005a;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 13px;
+	font-size: 12px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.menu a{
+	text-decoration: none;
+	color: #7c005a;
+}
+
+.menu a:hover {
+	color: #47363C;
+	text-decoration: underline;
+}
+
+.body_txt {
+	color: #000000;
+	text-align: justify;
+	vertical-align: top;
+	padding-top: 7px;
+	padding-right: 11px;
+	padding-bottom: 10px;
+	padding-left: 11px;
+}
+
+/**
+========== Menu Style ==============
+*/
+ul {
+	font-family: Arial, Verdana;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+        z-index: 100;
+}
+
+ul li {
+	display: block;
+	position: relative;
+	float: left;
+        z-index: 100;	
+}
+
+li ul {
+	display: none;
+        z-index: 100;
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	/*border-top: 1px solid #ffffff;*/
+	padding: 5px 15px 5px 15px;
+	background: rgb(255,117,186);
+	/*background: transparent !important;*/
+	margin: 0;
+        z-index: 100;
+	white-space: nowrap;
+}
+
+ul li a:hover {
+	background: rgb(255,147,201);
+        z-index: 100;
+}
+
+li:hover ul {
+	display: block;
+	position: absolute;
+        z-index: 100;
+}
+
+li:hover li {
+	float: none;
+	font-size: 11px;
+        z-index: 100;
+}
+
+li:hover a {
+	background: rgb(149,2,79);
+        z-index: 100;
+}
+
+li:hover li a:hover {
+	background: rgb(255,147,201);
+        z-index: 100;
+}
+/**
+================================================
+*/
+
+.name_guard {
+	position:absolute;
+	font-family: Verdana,Helvetica,Arial,sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	text-align:right;
+	margin-top:208px;
+	margin-left:5px;
+	/*margin: 250px 0px 0px 750px;*/
+	color: #ffffff;
+	border:0px solid;
+	z-index:1000;
+	width:745px;
+}
+
+.name_guard a:visited {
+	color:#ffffff;
+}
+
+/**
+For Button
+*/
+input.btn {color:rgb(0,164,0);font: bold 84% 'trebuchet ms',helvetica,sans-serif;background-color:#fed;   border:1px solid;   border-color: #696 #363 #363 #696; }
+
+/** Menu style for table */
+tr.header {
+	background: rgb(201,201,201);	
+	text-align: center;
+}
+tr.header th{
+	padding : 0 30px 0 30px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+tr.header td{
+	padding : 0 30px 0 30px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+tr th{
+	font-size:10px;
+	font-weight:normal;
+}
+
+/**
+For Div Form
+*/
+#form {
+	border: 1px solid;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    padding:5px;
+}
